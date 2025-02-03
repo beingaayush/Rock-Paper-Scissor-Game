@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #FFC6D9;
+    color: rgb(4, 4, 4);
+}
+
+h1 {
+    background-color: #F8FFE5;
+    color: rgb(4, 4, 4);
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    /*this property will make images fit accurately inside the div rather than stretching*/
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    /*this will make every div inside this div in a SINGLELINE form*/
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 3rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: #F8FFE5;
+    color: rgb(4, 4, 4);
+    display: inline;
+    /*jitna text hai utna hi space covered hoga diplay = inline se*/
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
