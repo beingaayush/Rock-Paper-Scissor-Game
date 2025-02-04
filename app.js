@@ -35,6 +35,7 @@ const gameDraw = () => {
     console.log("game draw");
     msg.innerText = "GAME DRAW, Try Again";
     msg.style.backgroundColor = "black";
+    msg.style.color = "white";
 
 };
 

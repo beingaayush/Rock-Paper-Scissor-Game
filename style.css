@@ -14,6 +14,7 @@ h1 {
     color: rgb(4, 4, 4);
     height: 5rem;
     line-height: 5rem;
+    /* width: 100%; */
 }
 
 .choice {
@@ -73,4 +74,51 @@ img {
     font-size: 2rem;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+/* for the website responsiveness*/
+
+@media only screen and (max-width: 455px) {
+
+    /* h1{
+        background-color: #F8FFE5;
+        width: 100%;
+    } */
+
+
+    .choices {
+        gap: 1rem;
+
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .choice {
+        height: 200px;
+        width: 120px;
+    }
+
+    .msg-container {
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        border-radius: 25px;
+
+    }
+
+    #msg {
+        display: flex;
+        margin: 1rem;
+        /* padding-right: 4px; */
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .choice:hover {
+        background-color: #FFC6D9;
+    }
+
 }
